@@ -27,11 +27,71 @@
  * HINT: For making image fill the container use object-fit:cover property:
  *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
  */
+ 
+ 
 
-html {
-  font-size: 1.0rem;
+ body {
+  background-color:rgb(232, 171, 121);
 }
-
-body {
+ main {
   font-family: Arial, Helvetica, sans-serif;
+  color: #242121;
+  font-size: 1.2rem;
+ margin:7rem; 
+align-content: space-around;}
+
+
+
+main > section {
+  margin: 10rem;
+  margin-bottom: 5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius:2rem;
 }
+
+main section.hero img {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  width: 100%;
+  max-width: 100%;
+  height: 20rem;
+  object-fit: cover;
+
+}
+
+main section.hero h1 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: left;
+  color: #a86f57;
+} 
+
+main section.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #543020;
+} 
+
+main section.hero p {
+  margin: 1rem;
+}
+main section.hero h3 {
+  font-size: 4rem;
+margin: 2rem; 
+margin-left: 1rem;
+text-align: left;
+  color: #a86f57;
+} 
+
+main section.hero h4 {
+  padding: 2rem;
+  background-color:#543020 ;
+  border-radius: 1rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 2rem;  
+  color: rgb(255, 255, 255);
+}
+
+
